@@ -3,6 +3,7 @@ Mettre à jour la carte volant du TIM
 
 # Fonctions à accomplir
 
+- Programable de l'exterieur
 - Affichace à l'ecran de : 
 	- La vitesse 
 	- (Temoins freinage)
@@ -20,6 +21,14 @@ Mettre à jour la carte volant du TIM
 	- consigne de courant
 	- POWER ON/OFF (potentiel)
 
+- Communication CAN avec :
+	- Lumiere avant/arriere
+	- Feu de direction
+	- Freinage (lumiere arriere)
+	 ATTENTION : Cable signalant le freinage doit passer à coté du BUS CAN 
+	- Vitesse 
+	- Commande Moteur : Avant/Arriere/Courant
+
 - led temoins de :
 	- freinage
 	- feu de direction
@@ -35,3 +44,7 @@ Mettre à jour la carte volant du TIM
 	- Potentiometre  --> selection consigne de courant 
 	- lever switch   --> marche avant/arriere
 	- push buttons   --> tous les autres
+
+# limite mecanique (à chercher)
+
+- le plus petit possible  
