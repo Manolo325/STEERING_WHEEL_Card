@@ -29,10 +29,10 @@ Mettre à jour la carte volant du TIM
 	- Vitesse 
 	- Commande Moteur : Avant/Arriere/Courant
 
-- led temoins de :
-	- freinage
-	- feu de direction
-	- feu avant et arrire
+- ~~led temoins de :~~
+	- ~~freinage~~
+	- ~~feu de direction~~
+	- ~~feu avant et arrire~~
 
 # Materielle
 
