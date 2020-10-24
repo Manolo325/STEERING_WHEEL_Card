@@ -2,3 +2,921 @@
 
 
 2020-10-24 12:22:08,539 [INFO] Activator:179 - !SESSION log4j initialized
+2020-10-24 12:22:27,096 [INFO] ApplicationProperties:181 - Using Application install path: B:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643
+2020-10-24 12:22:27,117 [INFO] DbMcusXml:70 - Set database path to: B:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\/mcu/
+2020-10-24 12:22:27,123 [INFO] DbBoardsPdsc:56 - Set plugin database path to: B:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\/plugins/boardmanager/
+2020-10-24 12:22:27,124 [INFO] DbMcus:258 - Set plugin images path to: B:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\/plugins/mcufinder/images/
+2020-10-24 12:22:27,125 [INFO] DbBoards:264 - Set plugin images path to: B:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\/plugins/mcufinder/images/
+2020-10-24 12:22:27,130 [INFO] DbExamples:326 - Set plugin images path to: B:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\/plugins/mcufinder/images/
+2020-10-24 12:22:27,152 [INFO] DbMcusDocs:112 - Set database path to: C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder//mcu/
+2020-10-24 12:22:27,156 [INFO] DbMcusJson:63 - Set database path to: C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder//mcu/
+2020-10-24 12:22:27,157 [INFO] DbBoardsDocs:112 - Set database path to: C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder//mcu/
+2020-10-24 12:22:27,159 [INFO] DbBoardsJson:56 - Set database path to: C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder//mcu/
+2020-10-24 12:22:27,178 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder//mcu/cs/
+2020-10-24 12:22:27,182 [INFO] DbExamplesSqlite:800 - Set database path to: C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder//mcu/
+2020-10-24 12:22:27,391 [INFO] RulesReader:52 - Compatibility file has been processed (209 Rules)
+2020-10-24 12:22:27,668 [INFO] MicroXplorer:564 - Detected Java Version = 1.8.0_252
+2020-10-24 12:22:27,669 [INFO] DbMcusXml:70 - Set database path to: B:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\/mcu/
+2020-10-24 12:22:27,669 [INFO] DbBoardsPdsc:56 - Set plugin database path to: B:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\/plugins/boardmanager/
+2020-10-24 12:22:27,670 [INFO] DbMcus:258 - Set plugin images path to: B:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\/plugins/mcufinder/images/
+2020-10-24 12:22:27,670 [INFO] DbBoards:264 - Set plugin images path to: B:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\/plugins/mcufinder/images/
+2020-10-24 12:22:27,671 [INFO] DbExamples:326 - Set plugin images path to: B:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\/plugins/mcufinder/images/
+2020-10-24 12:22:27,671 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder/ => C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder
+2020-10-24 12:22:27,671 [INFO] DbMcusDocs:112 - Set database path to: C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder//mcu/
+2020-10-24 12:22:27,671 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder/ => C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder
+2020-10-24 12:22:27,672 [INFO] DbMcusJson:63 - Set database path to: C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder//mcu/
+2020-10-24 12:22:27,672 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder/ => C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder
+2020-10-24 12:22:27,672 [INFO] DbBoardsDocs:112 - Set database path to: C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder//mcu/
+2020-10-24 12:22:27,672 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder/ => C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder
+2020-10-24 12:22:27,673 [INFO] DbBoardsJson:56 - Set database path to: C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder//mcu/
+2020-10-24 12:22:27,673 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder/ => C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder
+2020-10-24 12:22:27,673 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder/ => C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder
+2020-10-24 12:22:27,673 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder//mcu/cs/
+2020-10-24 12:22:27,673 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder/ => C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder
+2020-10-24 12:22:27,673 [INFO] DbExamplesSqlite:800 - Set database path to: C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder//mcu/
+2020-10-24 12:22:27,821 [INFO] MainPanel:189 - HeapMemory: 328204288
+2020-10-24 12:22:27,958 [INFO] DbMcusXml:70 - Set database path to: B:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\/mcu/
+2020-10-24 12:22:27,959 [INFO] DbBoardsPdsc:56 - Set plugin database path to: B:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\/plugins/boardmanager/
+2020-10-24 12:22:27,959 [INFO] DbMcus:258 - Set plugin images path to: B:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\/plugins/mcufinder/images/
+2020-10-24 12:22:27,959 [INFO] DbBoards:264 - Set plugin images path to: B:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\/plugins/mcufinder/images/
+2020-10-24 12:22:27,959 [INFO] DbExamples:326 - Set plugin images path to: B:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\/plugins/mcufinder/images/
+2020-10-24 12:22:27,961 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder/ => C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder
+2020-10-24 12:22:27,961 [INFO] DbMcusDocs:112 - Set database path to: C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder//mcu/
+2020-10-24 12:22:27,961 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder/ => C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder
+2020-10-24 12:22:27,961 [INFO] DbMcusJson:63 - Set database path to: C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder//mcu/
+2020-10-24 12:22:27,961 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder/ => C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder
+2020-10-24 12:22:27,962 [INFO] DbBoardsDocs:112 - Set database path to: C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder//mcu/
+2020-10-24 12:22:27,962 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder/ => C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder
+2020-10-24 12:22:27,962 [INFO] DbBoardsJson:56 - Set database path to: C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder//mcu/
+2020-10-24 12:22:27,962 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder/ => C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder
+2020-10-24 12:22:27,962 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder/ => C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder
+2020-10-24 12:22:27,963 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder//mcu/cs/
+2020-10-24 12:22:27,963 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder/ => C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder
+2020-10-24 12:22:27,963 [INFO] DbExamplesSqlite:800 - Set database path to: C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder//mcu/
+2020-10-24 12:22:27,996 [INFO] ApplicationProperties:181 - Using Application install path: B:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643
+2020-10-24 12:22:27,999 [INFO] PluginManage:178 - Search for loadable plugins [exclusion list=, ]
+2020-10-24 12:22:28,001 [INFO] PluginManage:292 - Check plugin analytics
+2020-10-24 12:22:28,293 [INFO] AnalyticsPlugin:203 - Accepted Software Licenses: STM32CubeMX.5.6.0
+2020-10-24 12:22:28,294 [INFO] AnalyticsPlugin:205 - Accepted CMSIS Pack Licenses: 
+2020-10-24 12:22:28,294 [INFO] AnalyticsPlugin:207 - Accepted Firmware Licenses: 
+2020-10-24 12:22:28,295 [INFO] PluginManage:342 - Loaded plugin analytics (category:tool,tabindex:-1)
+2020-10-24 12:22:28,296 [INFO] PluginManage:292 - Check plugin clock
+2020-10-24 12:22:28,341 [INFO] PluginManage:342 - Loaded plugin clock (category:base,tabindex:2)
+2020-10-24 12:22:28,342 [INFO] PluginManage:292 - Check plugin ddr
+2020-10-24 12:22:28,346 [INFO] PluginManage:342 - Loaded plugin ddr (category:tool,tabindex:6)
+2020-10-24 12:22:28,347 [INFO] PluginManage:292 - Check plugin filemanager
+2020-10-24 12:22:28,531 [INFO] PluginManage:342 - Loaded plugin filemanager (category:base,tabindex:10)
+2020-10-24 12:22:28,531 [INFO] PluginManage:292 - Check plugin ipmanager
+2020-10-24 12:22:28,555 [INFO] PluginManage:342 - Loaded plugin ipmanager (category:base,tabindex:5)
+2020-10-24 12:22:28,556 [INFO] PluginManage:292 - Check plugin pinoutandconfiguration
+2020-10-24 12:22:28,578 [INFO] PluginManage:342 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2020-10-24 12:22:28,579 [INFO] PluginManage:292 - Check plugin pinoutconfig
+2020-10-24 12:22:28,633 [INFO] PluginManage:342 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2020-10-24 12:22:28,634 [INFO] PluginManage:292 - Check plugin power
+2020-10-24 12:22:28,662 [INFO] PluginManage:342 - Loaded plugin power (category:power,tabindex:4)
+2020-10-24 12:22:28,662 [INFO] PluginManage:292 - Check plugin projectmanager
+2020-10-24 12:22:28,687 [INFO] PluginManage:342 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2020-10-24 12:22:28,687 [INFO] PluginManage:292 - Check plugin thirdparty
+2020-10-24 12:22:28,870 [INFO] ThirdPartyDb:333 - Open Third Party DataBase File (C:/Users/Le Petit Prince/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 72 ms. number of Sw pack : 19
+2020-10-24 12:22:28,878 [INFO] PluginManage:342 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2020-10-24 12:22:28,878 [INFO] PluginManage:292 - Check plugin tools
+2020-10-24 12:22:28,946 [INFO] PluginManage:342 - Loaded plugin tools (category:base,tabindex:7)
+2020-10-24 12:22:28,946 [INFO] PluginManage:292 - Check plugin tutovideos
+2020-10-24 12:22:29,279 [INFO] PluginManage:342 - Loaded plugin tutovideos (category:base,tabindex:-1)
+2020-10-24 12:22:29,280 [INFO] PluginManage:292 - Check plugin updater
+2020-10-24 12:22:29,301 [INFO] PluginManage:342 - Loaded plugin updater (category:base,tabindex:12)
+2020-10-24 12:22:29,302 [INFO] PluginManage:265 - PluginManage : Loaded plugins [13]
+2020-10-24 12:22:29,695 [INFO] PinOutPanel:1418 - setPackage(No Configuration,No Configuration)
+2020-10-24 12:22:29,902 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:22:29,903 [INFO] PluginManager:200 - loadIPPluginJar : add adc
+2020-10-24 12:22:29,942 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:22:29,942 [INFO] PluginManager:200 - loadIPPluginJar : add aes
+2020-10-24 12:22:29,998 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:22:29,998 [INFO] PluginManager:200 - loadIPPluginJar : add can
+2020-10-24 12:22:30,033 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:22:30,033 [INFO] PluginManager:200 - loadIPPluginJar : add comp
+2020-10-24 12:22:30,072 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:22:30,073 [INFO] PluginManager:200 - loadIPPluginJar : add cryp
+2020-10-24 12:22:30,112 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:22:30,113 [INFO] PluginManager:200 - loadIPPluginJar : add dfsdm
+2020-10-24 12:22:30,128 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:22:30,129 [INFO] PluginManager:200 - loadIPPluginJar : add dma
+2020-10-24 12:22:30,169 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:22:30,169 [INFO] PluginManager:200 - loadIPPluginJar : add fatfs
+2020-10-24 12:22:30,242 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:22:30,243 [INFO] PluginManager:200 - loadIPPluginJar : add fmc
+2020-10-24 12:22:30,353 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:22:30,355 [INFO] PluginManager:200 - loadIPPluginJar : add freertos
+2020-10-24 12:22:30,404 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:22:30,404 [INFO] PluginManager:200 - loadIPPluginJar : add genericplugin
+2020-10-24 12:22:30,562 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:22:30,562 [INFO] PluginManager:200 - loadIPPluginJar : add gfxmmu
+2020-10-24 12:22:30,719 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:22:30,720 [INFO] PluginManager:200 - loadIPPluginJar : add gic
+2020-10-24 12:22:30,743 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:22:30,744 [INFO] PluginManager:200 - loadIPPluginJar : add gpio
+2020-10-24 12:22:30,836 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:22:30,837 [INFO] PluginManager:200 - loadIPPluginJar : add gtzc
+2020-10-24 12:22:30,877 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:22:30,878 [INFO] PluginManager:200 - loadIPPluginJar : add hash
+2020-10-24 12:22:30,954 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:22:30,954 [INFO] PluginManager:200 - loadIPPluginJar : add i2c
+2020-10-24 12:22:31,017 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:22:31,018 [INFO] PluginManager:200 - loadIPPluginJar : add i2s
+2020-10-24 12:22:31,031 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:22:31,031 [INFO] PluginManager:200 - loadIPPluginJar : add ipddr
+2020-10-24 12:22:31,079 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:22:31,080 [INFO] PluginManager:200 - loadIPPluginJar : add ltdc
+2020-10-24 12:22:31,094 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:22:31,095 [INFO] PluginManager:200 - loadIPPluginJar : add mdma
+2020-10-24 12:22:31,176 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:22:31,177 [INFO] PluginManager:200 - loadIPPluginJar : add nvic
+2020-10-24 12:22:31,234 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:22:31,235 [INFO] PluginManager:200 - loadIPPluginJar : add opamp
+2020-10-24 12:22:31,347 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:22:31,348 [INFO] PluginManager:200 - loadIPPluginJar : add openamp
+2020-10-24 12:22:31,416 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:22:31,416 [INFO] PluginManager:200 - loadIPPluginJar : add pdm2pcm
+2020-10-24 12:22:31,437 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:22:31,441 [INFO] PluginManager:200 - loadIPPluginJar : add plateformsettings
+2020-10-24 12:22:31,485 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:22:31,485 [INFO] PluginManager:200 - loadIPPluginJar : add quadspi
+2020-10-24 12:22:31,503 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:22:31,504 [INFO] PluginManager:200 - loadIPPluginJar : add resmgrutility
+2020-10-24 12:22:31,596 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:22:31,597 [INFO] PluginManager:200 - loadIPPluginJar : add sai
+2020-10-24 12:22:31,693 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:22:31,693 [INFO] PluginManager:200 - loadIPPluginJar : add spi
+2020-10-24 12:22:31,773 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:22:31,774 [INFO] PluginManager:200 - loadIPPluginJar : add stm32_wpan
+2020-10-24 12:22:31,810 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:22:31,811 [INFO] PluginManager:200 - loadIPPluginJar : add tim
+2020-10-24 12:22:31,919 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:22:31,920 [INFO] PluginManager:200 - loadIPPluginJar : add touchsensing
+2020-10-24 12:22:31,975 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:22:31,976 [INFO] PluginManager:200 - loadIPPluginJar : add tracer_emb
+2020-10-24 12:22:32,024 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:22:32,025 [INFO] PluginManager:200 - loadIPPluginJar : add ts
+2020-10-24 12:22:32,065 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:22:32,066 [INFO] PluginManager:200 - loadIPPluginJar : add tsc
+2020-10-24 12:22:32,100 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:22:32,100 [INFO] PluginManager:200 - loadIPPluginJar : add ucpd
+2020-10-24 12:22:32,215 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:22:32,215 [INFO] PluginManager:200 - loadIPPluginJar : add usart
+2020-10-24 12:22:34,374 [INFO] CubeProgrammer:457 - [DDR PANEL] - PathOfProgrammer: null
+2020-10-24 12:22:35,591 [FATAL] Updater:282 - Updater called before beeing initialized
+2020-10-24 12:22:35,921 [FATAL] Updater:282 - Updater called before beeing initialized
+2020-10-24 12:22:35,921 [WARN] ThirdParty:775 - waiting for thirdparty lock release [close project]
+2020-10-24 12:22:35,921 [INFO] ThirdParty:777 - entering critical section [close project]
+2020-10-24 12:22:35,922 [INFO] ThirdParty:790 - exiting critical section [close project]
+2020-10-24 12:22:35,925 [INFO] PinOutPanel:1418 - setPackage(No Configuration,No Configuration)
+2020-10-24 12:22:35,926 [FATAL] Updater:282 - Updater called before beeing initialized
+2020-10-24 12:22:35,942 [ERROR] Updater:967 - MainUpdater not yet initialized. External WinMGr cannot be set.
+2020-10-24 12:22:35,944 [INFO] CubeProgrammer:457 - [DDR PANEL] - PathOfProgrammer: B:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.4.0.202007081208\tools\bin
+2020-10-24 12:22:35,951 [INFO] ProgrammerExecThread:148 - [ProgrammerAPI] CubeProgrammer command construction: B:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.4.0.202007081208\tools\bin\STM32_Programmer_CLI.exe -l
+2020-10-24 12:22:36,504 [INFO] MainDdrPanel:49 - [DDR PANEL] SETTER - Set cubeProgrammerPath to: B:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.4.0.202007081208\tools\bin
+2020-10-24 12:22:36,670 [INFO] Updater:904 - Updater Version found : 6.0.1
+2020-10-24 12:22:36,692 [INFO] ApplicationProperties:181 - Using Application install path: B:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643
+2020-10-24 12:22:37,482 [INFO] MainUpdater:2268 - connection check result : 10
+2020-10-24 12:22:37,483 [INFO] MainUpdater:2935 - Updater definition file requires update
+2020-10-24 12:22:37,488 [INFO] MainUpdater:239 - Updater Check For Update Now.
+2020-10-24 12:22:37,490 [INFO] MicroXplorer:414 - Change Database Version : DB.6.0.0
+2020-10-24 12:22:37,531 [INFO] ServerAccessManage:348 - Download File updaters.zip
+2020-10-24 12:22:37,636 [INFO] FileExtend:225 - Unzip File : updaters.zip
+2020-10-24 12:22:37,636 [INFO] FileExtend:240 - Standard Zip Deflate
+2020-10-24 12:22:37,903 [WARN] IntegrityCheckThread:61 - waiting for thirdparty lock release [integrity check]
+2020-10-24 12:22:37,903 [INFO] IntegrityCheckThread:63 - entering critical section [integrity check]
+2020-10-24 12:22:37,903 [WARN] MainUpdater:1087 - Updater busy. Cannot search thirdparties
+2020-10-24 12:22:39,631 [INFO] ServerAccessManage:348 - Download File PacksControlFlags.xml
+2020-10-24 12:22:39,723 [INFO] ServerAccessManage:348 - Download File cubemx.pidx
+2020-10-24 12:22:39,962 [INFO] LoadServerUpdatesThread:309 - End of LoadServerUpdate Thread
+2020-10-24 12:22:40,040 [INFO] CheckServerUpdateThread:102 - End of CheckServer Thread
+2020-10-24 12:22:40,118 [INFO] MainUpdater:2268 - connection check result : 10
+2020-10-24 12:22:40,323 [INFO] ServerAccessManage:348 - Download File mcusDocs.json._tmp_
+2020-10-24 12:22:40,401 [INFO] LoadUrlFilesThread:135 - End of LoadUrlFiles Thread
+2020-10-24 12:22:40,531 [INFO] ServerAccessManage:348 - Download File mcusFeaturesAndDescription.json._tmp_
+2020-10-24 12:22:40,912 [WARN] MainUpdater:1087 - Updater busy. Cannot search thirdparties
+2020-10-24 12:22:41,945 [INFO] LoadUrlFilesThread:135 - End of LoadUrlFiles Thread
+2020-10-24 12:22:42,040 [INFO] ServerAccessManage:348 - Download File boardsDocs.json._tmp_
+2020-10-24 12:22:42,134 [INFO] LoadUrlFilesThread:135 - End of LoadUrlFiles Thread
+2020-10-24 12:22:42,212 [INFO] ServerAccessManage:348 - Download File boards.json._tmp_
+2020-10-24 12:22:42,290 [INFO] LoadUrlFilesThread:135 - End of LoadUrlFiles Thread
+2020-10-24 12:22:42,351 [INFO] ServerAccessManage:348 - Download File cube-finder-db.zip
+2020-10-24 12:22:43,923 [WARN] MainUpdater:1087 - Updater busy. Cannot search thirdparties
+2020-10-24 12:22:45,326 [INFO] FileExtend:225 - Unzip File : cube-finder-db.zip
+2020-10-24 12:22:45,329 [INFO] FileExtend:240 - Standard Zip Deflate
+2020-10-24 12:22:45,794 [INFO] LoadUrlFilesThread:135 - End of LoadUrlFiles Thread
+2020-10-24 12:22:45,947 [INFO] ServerAccessManage:348 - Download File crdb.zip
+2020-10-24 12:22:46,131 [INFO] FileExtend:225 - Unzip File : crdb.zip
+2020-10-24 12:22:46,134 [INFO] FileExtend:240 - Standard Zip Deflate
+2020-10-24 12:22:46,177 [INFO] LoadUrlFilesThread:135 - End of LoadUrlFiles Thread
+2020-10-24 12:22:46,233 [INFO] ServerAccessManage:348 - Download File tutoVideoDB.zip
+2020-10-24 12:22:46,292 [INFO] FileExtend:225 - Unzip File : tutoVideoDB.zip
+2020-10-24 12:22:46,294 [INFO] FileExtend:240 - Standard Zip Deflate
+2020-10-24 12:22:46,315 [INFO] LoadUrlFilesThread:135 - End of LoadUrlFiles Thread
+2020-10-24 12:22:46,357 [INFO] DbMcusDocs:145 - JSON generation date=Wed Oct 21 13:38:15 CEST 2020 (1603280295)
+2020-10-24 12:22:46,359 [INFO] DbMcusXml:100 - Load MCU database from B:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\/mcu/families.xml
+2020-10-24 12:22:47,081 [INFO] ThirdPartyDb:299 - Save Third Party DataBase File (C:/Users/Le Petit Prince/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) [forced]
+2020-10-24 12:22:47,177 [INFO] ThirdPartyDb:299 - Save Third Party DataBase File (C:/Users/Le Petit Prince/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) [forced]
+2020-10-24 12:22:47,246 [INFO] IntegrityCheckThread:76 - exiting critical section [integrity check]
+2020-10-24 12:22:47,247 [INFO] IntegrityCheckThread:79 - End integrity checks thread
+2020-10-24 12:22:47,405 [INFO] DbMcusJson:92 - JSON generation date=Wed Oct 21 13:38:15 CEST 2020 (1603280295)
+2020-10-24 12:22:49,018 [INFO] DbMcus:175 - Found 1761 MCUs (1722 are supported by CubeMX, 1738 are visible in CubeMX)
+2020-10-24 12:22:49,020 [INFO] ApiDb:201 - Load user favorites file C:\Users\Le Petit Prince/.stm32cubemx/favorites.mcus.txt: 0 item(s)
+2020-10-24 12:22:49,021 [INFO] ApiDb:205 - User favorites MCUs=[]
+2020-10-24 12:22:49,021 [INFO] DbMcus:187 - Set 0 / 0 favorites MCUs
+2020-10-24 12:22:49,422 [INFO] DbMcusDocs:81 - Found 601 MCUs documents
+2020-10-24 12:22:49,425 [INFO] ApiDb:226 - Save user favorites file C:\Users\Le Petit Prince/.stm32cubemx/favorites.mcus.txt: 0 item(s)
+2020-10-24 12:22:49,426 [INFO] ApiDb:230 - User favorites MCUs=[]
+2020-10-24 12:22:49,427 [INFO] DbMcusXml:100 - Load MCU database from B:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\/mcu/families.xml
+2020-10-24 12:22:50,024 [INFO] DbMcusJson:92 - JSON generation date=Wed Oct 21 13:38:15 CEST 2020 (1603280295)
+2020-10-24 12:22:51,098 [INFO] DbMcus:175 - Found 1761 MCUs (1722 are supported by CubeMX, 1738 are visible in CubeMX)
+2020-10-24 12:22:51,099 [INFO] ApiDb:201 - Load user favorites file C:\Users\Le Petit Prince/.stm32cubemx/favorites.mcus.txt: 0 item(s)
+2020-10-24 12:22:51,099 [INFO] ApiDb:205 - User favorites MCUs=[]
+2020-10-24 12:22:51,099 [INFO] DbMcus:187 - Set 0 / 0 favorites MCUs
+2020-10-24 12:22:51,136 [INFO] DbBoardsDocs:145 - JSON generation date=Wed Oct 21 13:38:15 CEST 2020 (1603280295)
+2020-10-24 12:22:51,162 [INFO] DbBoardsPdsc:94 - Found 23 items
+2020-10-24 12:22:51,173 [INFO] DbBoardsPdsc:94 - Found 9 items
+2020-10-24 12:22:51,187 [INFO] DbBoardsPdsc:94 - Found 29 items
+2020-10-24 12:22:51,197 [INFO] DbBoardsPdsc:94 - Found 1 items
+2020-10-24 12:22:51,215 [INFO] DbBoardsPdsc:94 - Found 44 items
+2020-10-24 12:22:51,233 [INFO] DbBoardsPdsc:94 - Found 40 items
+2020-10-24 12:22:51,243 [INFO] DbBoardsPdsc:94 - Found 2 items
+2020-10-24 12:22:51,253 [INFO] DbBoardsPdsc:94 - Found 4 items
+2020-10-24 12:22:51,268 [WARN] DbBoardsPdsc:258 - Board STM32H7B3I-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (CS42L51-CNZ), n=1
+2020-10-24 12:22:51,268 [WARN] DbBoardsPdsc:258 - Board STM32H735G-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (WM8994ECS/R), n=1
+2020-10-24 12:22:51,272 [WARN] DbBoardsPdsc:258 - Board STM32H7B3I-EVAL: unknown feature type=Audio, name=, username=Multi-Channel Audio Codec (CS42L51-CNZ), n=1
+2020-10-24 12:22:51,272 [WARN] DbBoardsPdsc:258 - Board STM32H7B3I-EVAL: unknown feature type=Meter, name=, username=Power-metering and Temperature-monitoring with sigma-delta modulators, n=1
+2020-10-24 12:22:51,272 [WARN] DbBoardsPdsc:258 - Board STM32H7B3I-EVAL: unknown feature type=Motor, name=, username=Motor Control, n=1
+2020-10-24 12:22:51,291 [INFO] DbBoardsJson:85 - JSON generation date=Mon Sep 28 15:22:09 CEST 2020 (1601299329)
+2020-10-24 12:22:51,302 [INFO] DbBoards:117 - Found 153 boards (149 are supported by CubeMX)
+2020-10-24 12:22:51,316 [INFO] DbBoardsDocs:145 - JSON generation date=Wed Oct 21 13:38:15 CEST 2020 (1603280295)
+2020-10-24 12:22:51,368 [INFO] DbBoardsDocs:81 - Found 190 boards documents
+2020-10-24 12:22:51,371 [WARN] DbBoards:127 - board B-L462E-CELL1 has no document id list !
+2020-10-24 12:22:51,371 [WARN] DbBoards:127 - board B-L475E-IOT01A2 has no document id list !
+2020-10-24 12:22:51,373 [WARN] DbBoards:127 - board NUCLEO-G491RE has no document id list !
+2020-10-24 12:22:51,374 [WARN] DbBoards:127 - board NUCLEO-H743ZI2 has no document id list !
+2020-10-24 12:22:51,375 [WARN] DbBoards:127 - board NUCLEO-WB35CE has no document id list !
+2020-10-24 12:22:51,376 [WARN] DbBoards:127 - board NUCLEO-WB55RG has no document id list !
+2020-10-24 12:22:51,377 [WARN] DbBoards:127 - board P-NUCLEO-WB55-Nucleo has no document id list !
+2020-10-24 12:22:51,377 [WARN] DbBoards:127 - board P-NUCLEO-WB55-USBDongle has no document id list !
+2020-10-24 12:22:51,377 [WARN] DbBoards:127 - board STEVAL-BFA001V1B has no document id list !
+2020-10-24 12:22:51,378 [WARN] DbBoards:127 - board STEVAL-BFA001V2B has no document id list !
+2020-10-24 12:22:51,378 [WARN] DbBoards:127 - board STEVAL-IDP005V1 has no document id list !
+2020-10-24 12:22:51,378 [WARN] DbBoards:127 - board STEVAL-IDP005V2 has no document id list !
+2020-10-24 12:22:51,378 [WARN] DbBoards:127 - board STEVAL-MKSBOX1V1 has no document id list !
+2020-10-24 12:22:51,378 [WARN] DbBoards:127 - board STEVAL-STWINKT1 has no document id list !
+2020-10-24 12:22:51,379 [WARN] DbBoards:127 - board STM32F401C-DISCO has no document id list !
+2020-10-24 12:22:51,380 [WARN] DbBoards:127 - board STM32F769I-DISC1 has no document id list !
+2020-10-24 12:22:51,381 [WARN] DbBoards:127 - board STM32G474E-EVAL1 has no document id list !
+2020-10-24 12:22:51,382 [WARN] DbBoards:127 - board STM32H743I-EVAL2 has no document id list !
+2020-10-24 12:22:51,382 [WARN] DbBoards:127 - board STM32H747I-DISC1 has no document id list !
+2020-10-24 12:22:51,382 [WARN] DbBoards:127 - board STM32H753I-EVAL2 has no document id list !
+2020-10-24 12:22:51,383 [WARN] DbBoards:127 - board STM32L-DISCOVERY has no document id list !
+2020-10-24 12:22:51,384 [WARN] DbBoards:127 - board STM32MP157A-DK1 has no document id list !
+2020-10-24 12:22:51,385 [WARN] DbBoards:127 - board STM32MP157F-EV1 has no document id list !
+2020-10-24 12:22:51,630 [ERROR] DbBoards:192 - No image file URL for board B-L462E-CELL1
+2020-10-24 12:22:52,110 [ERROR] DbBoards:192 - No image file URL for board NUCLEO-WB35CE
+2020-10-24 12:22:53,651 [INFO] ApiDb:201 - Load user favorites file C:\Users\Le Petit Prince/.stm32cubemx/favorites.boards.txt: 0 item(s)
+2020-10-24 12:22:53,651 [INFO] ApiDb:205 - User favorites Boards=[]
+2020-10-24 12:22:53,651 [INFO] DbBoards:206 - Set 0 / 0 favorites Boards
+2020-10-24 12:22:53,678 [INFO] DbBoardsDocs:81 - Found 380 boards documents
+2020-10-24 12:22:53,679 [INFO] ApiDb:226 - Save user favorites file C:\Users\Le Petit Prince/.stm32cubemx/favorites.boards.txt: 0 item(s)
+2020-10-24 12:22:53,679 [INFO] ApiDb:230 - User favorites Boards=[]
+2020-10-24 12:22:53,683 [INFO] DbBoardsPdsc:94 - Found 23 items
+2020-10-24 12:22:53,685 [INFO] DbBoardsPdsc:94 - Found 9 items
+2020-10-24 12:22:53,688 [INFO] DbBoardsPdsc:94 - Found 29 items
+2020-10-24 12:22:53,690 [INFO] DbBoardsPdsc:94 - Found 1 items
+2020-10-24 12:22:53,695 [INFO] DbBoardsPdsc:94 - Found 44 items
+2020-10-24 12:22:53,705 [INFO] DbBoardsPdsc:94 - Found 40 items
+2020-10-24 12:22:53,707 [INFO] DbBoardsPdsc:94 - Found 2 items
+2020-10-24 12:22:53,709 [INFO] DbBoardsPdsc:94 - Found 4 items
+2020-10-24 12:22:53,712 [WARN] DbBoardsPdsc:258 - Board STM32H7B3I-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (CS42L51-CNZ), n=1
+2020-10-24 12:22:53,713 [WARN] DbBoardsPdsc:258 - Board STM32H735G-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (WM8994ECS/R), n=1
+2020-10-24 12:22:53,715 [WARN] DbBoardsPdsc:258 - Board STM32H7B3I-EVAL: unknown feature type=Audio, name=, username=Multi-Channel Audio Codec (CS42L51-CNZ), n=1
+2020-10-24 12:22:53,715 [WARN] DbBoardsPdsc:258 - Board STM32H7B3I-EVAL: unknown feature type=Meter, name=, username=Power-metering and Temperature-monitoring with sigma-delta modulators, n=1
+2020-10-24 12:22:53,715 [WARN] DbBoardsPdsc:258 - Board STM32H7B3I-EVAL: unknown feature type=Motor, name=, username=Motor Control, n=1
+2020-10-24 12:22:53,731 [INFO] DbBoardsJson:85 - JSON generation date=Mon Sep 28 15:22:09 CEST 2020 (1601299329)
+2020-10-24 12:22:53,740 [INFO] DbBoards:117 - Found 153 boards (149 are supported by CubeMX)
+2020-10-24 12:22:53,741 [WARN] DbBoards:127 - board B-L462E-CELL1 has no document id list !
+2020-10-24 12:22:53,741 [WARN] DbBoards:127 - board B-L475E-IOT01A2 has no document id list !
+2020-10-24 12:22:53,743 [WARN] DbBoards:127 - board NUCLEO-G491RE has no document id list !
+2020-10-24 12:22:53,743 [WARN] DbBoards:127 - board NUCLEO-H743ZI2 has no document id list !
+2020-10-24 12:22:53,745 [WARN] DbBoards:127 - board NUCLEO-WB35CE has no document id list !
+2020-10-24 12:22:53,745 [WARN] DbBoards:127 - board NUCLEO-WB55RG has no document id list !
+2020-10-24 12:22:53,746 [WARN] DbBoards:127 - board P-NUCLEO-WB55-Nucleo has no document id list !
+2020-10-24 12:22:53,746 [WARN] DbBoards:127 - board P-NUCLEO-WB55-USBDongle has no document id list !
+2020-10-24 12:22:53,746 [WARN] DbBoards:127 - board STEVAL-BFA001V1B has no document id list !
+2020-10-24 12:22:53,746 [WARN] DbBoards:127 - board STEVAL-BFA001V2B has no document id list !
+2020-10-24 12:22:53,746 [WARN] DbBoards:127 - board STEVAL-IDP005V1 has no document id list !
+2020-10-24 12:22:53,746 [WARN] DbBoards:127 - board STEVAL-IDP005V2 has no document id list !
+2020-10-24 12:22:53,746 [WARN] DbBoards:127 - board STEVAL-MKSBOX1V1 has no document id list !
+2020-10-24 12:22:53,746 [WARN] DbBoards:127 - board STEVAL-STWINKT1 has no document id list !
+2020-10-24 12:22:53,747 [WARN] DbBoards:127 - board STM32F401C-DISCO has no document id list !
+2020-10-24 12:22:53,748 [WARN] DbBoards:127 - board STM32F769I-DISC1 has no document id list !
+2020-10-24 12:22:53,748 [WARN] DbBoards:127 - board STM32G474E-EVAL1 has no document id list !
+2020-10-24 12:22:53,749 [WARN] DbBoards:127 - board STM32H743I-EVAL2 has no document id list !
+2020-10-24 12:22:53,749 [WARN] DbBoards:127 - board STM32H747I-DISC1 has no document id list !
+2020-10-24 12:22:53,750 [WARN] DbBoards:127 - board STM32H753I-EVAL2 has no document id list !
+2020-10-24 12:22:53,750 [WARN] DbBoards:127 - board STM32L-DISCOVERY has no document id list !
+2020-10-24 12:22:53,752 [WARN] DbBoards:127 - board STM32MP157A-DK1 has no document id list !
+2020-10-24 12:22:53,752 [WARN] DbBoards:127 - board STM32MP157F-EV1 has no document id list !
+2020-10-24 12:22:53,808 [ERROR] DbBoards:192 - No image file URL for board B-L462E-CELL1
+2020-10-24 12:22:54,086 [ERROR] DbBoards:192 - No image file URL for board NUCLEO-WB35CE
+2020-10-24 12:22:54,676 [INFO] ApiDb:201 - Load user favorites file C:\Users\Le Petit Prince/.stm32cubemx/favorites.boards.txt: 0 item(s)
+2020-10-24 12:22:54,676 [INFO] ApiDb:205 - User favorites Boards=[]
+2020-10-24 12:22:54,677 [INFO] DbBoards:206 - Set 0 / 0 favorites Boards
+2020-10-24 12:22:54,821 [INFO] DbExamplesSqlite:156 - SQLite db open (C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder\mcu\cube-finder-db.db)
+2020-10-24 12:22:55,444 [INFO] DbExamplesSqlite:447 - Ignored 0 examples not supported by CubeIDE
+2020-10-24 12:22:55,444 [INFO] DbExamplesSqlite:448 - Found 4380 examples active
+2020-10-24 12:22:55,445 [INFO] DbExamplesSqlite:449 - Found 128 examples obsolete
+2020-10-24 12:22:55,445 [INFO] DbExamplesSqlite:450 - Found 250 examples under development
+2020-10-24 12:22:55,445 [INFO] DbExamplesSqlite:451 - Found 123 examples not building
+2020-10-24 12:22:55,472 [INFO] DbExamplesSqlite:130 - SQLite Data Model version=2.1
+2020-10-24 12:22:55,473 [INFO] DbExamplesSqlite:131 - SQLite Configuration version=2.11
+2020-10-24 12:22:55,473 [INFO] DbExamplesSqlite:132 - SQLite generation date=2020-10-08 (1602147613)
+2020-10-24 12:22:55,473 [INFO] DbExamplesSqlite:133 - SQLite FW Pack versions=[STM32Cube_FW_F4_V1.25.1, STM32Cube_FW_F7_V1.16.0, STM32Cube_FW_G0_V1.3.0, STM32Cube_FW_G4_V1.3.0, STM32Cube_FW_H7_V1.8.0, STM32Cube_FW_L5_V1.3.1, STM32Cube_FW_WB_V1.9.0, STM32Cube_FW_WL_V1.0.0RC1]
+2020-10-24 12:22:55,474 [INFO] DbExamples:123 - Found 4503 examples
+2020-10-24 12:22:56,087 [ERROR] DbExamples:199 - Found 297 examples with invalid data (board or MCU)
+2020-10-24 12:22:56,089 [INFO] DbExamples:215 - Found 58 boards with related examples
+2020-10-24 12:22:56,109 [INFO] DbExamples:228 - Found 44 MCUs with related examples
+2020-10-24 12:22:56,135 [INFO] ApiDb:192 - User favorites file not found: C:\Users\Le Petit Prince/.stm32cubemx/favorites.examples.txt
+2020-10-24 12:22:56,136 [INFO] DbExamples:249 - Set 0 / 0 favorites Examples
+2020-10-24 12:22:56,538 [INFO] McuFinderGlobals:40 - Set McuFinder mode to 2 (CubeIDE integrated)
+2020-10-24 12:22:57,368 [INFO] CrossSelectorPresenter:1330 - Cross Selector saved comparison directory: C:\Users\Le Petit Prince\.stmcufinder\plugins\mcufinder\mcu\cs_comparisons_mx
+2020-10-24 12:22:57,377 [INFO] MultiScanPanel:193 - Auto-refresh data requested => check proxy status ongoing
+2020-10-24 12:22:57,379 [INFO] FinderPluginLoader:87 - Searching for filters in installed packs
+2020-10-24 12:22:58,548 [INFO] LoadUrlFilesThread:162 - End of LoadServerUrlFiles without Thread
+2020-10-24 12:22:58,598 [INFO] DetailPanel:331 - Set advertising image to C:/Users/Le Petit Prince/STM32Cube/Repository/\stm32cubemx-promo_image.jpg
+2020-10-24 12:22:59,243 [INFO] McuFilterPanel:245 - Update 0 favorites MCUs
+2020-10-24 12:23:51,035 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.8.2
+2020-10-24 12:23:51,036 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.8.1
+2020-10-24 12:23:51,036 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.8.0
+2020-10-24 12:23:56,632 [INFO] MainUpdater:2268 - connection check result : 10
+2020-10-24 12:23:56,633 [INFO] MainUpdater:2268 - connection check result : 10
+2020-10-24 12:23:56,724 [INFO] MicroXplorer:384 - Change Database Path : 
+2020-10-24 12:23:56,725 [INFO] MicroXplorer:414 - Change Database Version : DB.6.0.0
+2020-10-24 12:23:56,725 [WARN] ThirdParty:775 - waiting for thirdparty lock release [close project]
+2020-10-24 12:23:56,725 [INFO] ThirdParty:777 - entering critical section [close project]
+2020-10-24 12:23:56,726 [INFO] ThirdParty:790 - exiting critical section [close project]
+2020-10-24 12:23:56,738 [INFO] PinOutPanel:1418 - setPackage(No Configuration,No Configuration)
+2020-10-24 12:23:56,740 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 466765840 Bytes (827326464)
+2020-10-24 12:23:56,741 [INFO] MicroXplorer:384 - Change Database Path : 
+2020-10-24 12:23:56,742 [INFO] MicroXplorer:414 - Change Database Version : DB.6.0.0
+2020-10-24 12:23:56,742 [INFO] OpenFileManager:274 - Change cursor
+2020-10-24 12:23:59,310 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) Unable to find key (Mcu.ThirdPartyNb) in loaded IOC file
+2020-10-24 12:23:59,310 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) Unable to find key (Mcu.PinsNb) in loaded IOC file
+2020-10-24 12:23:59,310 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) Unable to find key (Mcu.IPNb) in loaded IOC file
+2020-10-24 12:23:59,465 [WARN] ApiManager:274 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.8.1.1: no header file found
+2020-10-24 12:23:59,466 [WARN] ApiManager:274 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.8.1.1: no header file found
+2020-10-24 12:23:59,466 [WARN] ApiManager:274 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.8.1.1: no header file found
+2020-10-24 12:23:59,467 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1602700034234]
+2020-10-24 12:23:59,467 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : GFX01M1_Condition id : 1602700034219
+2020-10-24 12:23:59,468 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1602700034234]
+2020-10-24 12:23:59,468 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : GFX01M1_HelloWorld_Condition id : 1602700034221
+2020-10-24 12:23:59,512 [WARN] ApiManager:274 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.8.1.0: no header file found
+2020-10-24 12:23:59,512 [WARN] ApiManager:274 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.8.1.0: no header file found
+2020-10-24 12:23:59,512 [WARN] ApiManager:274 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.8.1.0: no header file found
+2020-10-24 12:23:59,518 [INFO] RtosManager:456 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2020-10-24 12:23:59,519 [INFO] RtosManager:456 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2020-10-24 12:23:59,519 [INFO] RtosManager:456 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2020-10-24 12:23:59,520 [INFO] RtosManager:456 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2020-10-24 12:23:59,520 [WARN] ModelIntegratedComponent:188 - Missing modes for component 1598958239305
+2020-10-24 12:23:59,522 [WARN] ApiManager:274 - Cannot register API 'Wireless:BlueNRG-2' from pack STMicroelectronics.X-CUBE-BLE2.3.0.0: no header file found
+2020-10-24 12:24:00,268 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 356783000 Bytes (827326464)
+2020-10-24 12:24:00,271 [WARN] ThirdParty:741 - waiting for thirdparty lock release [change project]
+2020-10-24 12:24:00,271 [INFO] ThirdParty:743 - entering critical section [change project]
+2020-10-24 12:24:00,271 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 8.1.1
+2020-10-24 12:24:00,271 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2020-10-24 12:24:00,271 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 1.0.0
+2020-10-24 12:24:00,271 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 8.1.0
+2020-10-24 12:24:00,272 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2020-10-24 12:24:00,272 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2020-10-24 12:24:00,272 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2020-10-24 12:24:00,272 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2020-10-24 12:24:00,272 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2020-10-24 12:24:00,272 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2020-10-24 12:24:00,272 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2020-10-24 12:24:00,272 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2020-10-24 12:24:00,272 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.15.0
+2020-10-24 12:24:00,272 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 5.2.0
+2020-10-24 12:24:00,273 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2020-10-24 12:24:00,273 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.0.0
+2020-10-24 12:24:00,273 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2020-10-24 12:24:00,273 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2020-10-24 12:24:00,273 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2020-10-24 12:24:00,274 [INFO] ThirdParty:749 - exiting critical section [change project]
+2020-10-24 12:24:00,642 [INFO] PinOutPanel:1418 - setPackage(No Configuration,No Configuration)
+2020-10-24 12:24:00,644 [INFO] PinOutPanel:1418 - setPackage(STM32F103RBTx,LQFP64)
+2020-10-24 12:24:01,504 [INFO] UtilMem:74 - Before build in PCC Used Memory: 396402432 Bytes (827326464)
+2020-10-24 12:24:02,307 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Le Petit Prince/.stm32cubemx/plugins/power
+2020-10-24 12:24:02,396 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Le Petit Prince/.stm32cubemx/plugins/power
+2020-10-24 12:24:02,459 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Le Petit Prince/.stm32cubemx/plugins/power
+2020-10-24 12:24:02,468 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Le Petit Prince/.stm32cubemx/plugins/power
+2020-10-24 12:24:02,756 [INFO] UtilMem:74 - After build in PCC Used Memory: 450928384 Bytes (827326464)
+2020-10-24 12:24:02,788 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:24:02,789 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:24:02,789 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:24:02,789 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:24:02,790 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:24:02,790 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:24:02,790 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:24:02,791 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:24:02,791 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:24:02,791 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:24:02,792 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:24:02,792 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:24:02,793 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:24:02,793 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:24:02,793 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:24:02,794 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:24:02,794 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:24:02,795 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:24:02,795 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:24:02,795 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:24:02,796 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:24:02,796 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:24:02,797 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:24:02,797 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:24:02,798 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:24:02,799 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:24:02,799 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 12:24:02,868 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] toolchainItems.length=====1
+2020-10-24 12:24:03,271 [INFO] OpenFileManager:294 - Restore cursor
+2020-10-24 12:24:03,807 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 405346888 Bytes (827326464)
+2020-10-24 12:24:04,984 [INFO] FileExtend:225 - Unzip File : stm32cube_fw_f1_v180.zip
+2020-10-24 12:24:04,986 [INFO] FileExtend:240 - Standard Zip Deflate
+2020-10-24 12:25:09,319 [INFO] ServerAccessManage:348 - Download File stm32cube_fw_f1_v182.zip
+2020-10-24 12:25:16,417 [INFO] FileExtend:225 - Unzip File : stm32cube_fw_f1_v182.zip
+2020-10-24 12:25:16,419 [INFO] FileExtend:240 - Standard Zip Deflate
+2020-10-24 12:25:21,902 [INFO] LoadServerPackagesThread:160 - End of LoadServerPackages Thread
+2020-10-24 12:25:22,002 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 707126712 Bytes (1073741824)
+2020-10-24 12:25:22,374 [INFO] CheckServerUpdateThread:102 - End of CheckServer Thread
+2020-10-24 12:25:23,059 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: NVIC
+2020-10-24 12:25:23,059 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SYS
+2020-10-24 12:25:23,059 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: RCC
+2020-10-24 12:25:23,061 [INFO] CodeGenerator:622 - code generatio: config db path: B:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\
+2020-10-24 12:25:24,124 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\license.tmp_save
+2020-10-24 12:25:24,835 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\license.tmp
+2020-10-24 12:25:25,085 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\stm32f1xx_it.c_save
+2020-10-24 12:25:25,338 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\stm32f1xx_it.c
+2020-10-24 12:25:25,383 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\stm32f1xx_it.h_save
+2020-10-24 12:25:25,566 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\stm32f1xx_it.h
+2020-10-24 12:25:25,635 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\stm32f1xx_hal_msp.c_save
+2020-10-24 12:25:25,917 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\stm32f1xx_hal_msp.c
+2020-10-24 12:25:25,965 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\system.tmp_save
+2020-10-24 12:25:26,112 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\system.tmp
+2020-10-24 12:25:26,168 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-10-24 12:25:26,325 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\stm32f1xx_hal_conf.h
+2020-10-24 12:25:26,453 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\main.h_save
+2020-10-24 12:25:26,696 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\main.h
+2020-10-24 12:25:26,747 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\main.c_save
+2020-10-24 12:25:26,988 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\main.c
+2020-10-24 12:25:28,082 [INFO] ProjectBuilder:2168 - Time for Copy HAL[1] : 123mS.
+2020-10-24 12:25:28,091 [INFO] ProjectBuilder:2988 - Project Generator version: 3.10.0-B14
+2020-10-24 12:25:28,523 [INFO] ConfigFileManager:1183 - The Die is : DIE410
+2020-10-24 12:25:28,550 [INFO] ApiDbMcu:456 - Load IP Config File for FATFS
+2020-10-24 12:25:28,573 [INFO] ApiDbMcu:456 - Load IP Config File for FREERTOS
+2020-10-24 12:25:28,598 [INFO] ApiDbMcu:456 - Load IP Config File for USB_DEVICE
+2020-10-24 12:25:44,489 [ERROR] root:96 - SUCCESS
+2020-10-24 12:25:44,654 [INFO] ProjectBuilder:3155 - Time for Generating toolchain IDE Files: 16563mS.
+2020-10-24 12:25:44,663 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 8mS.
+2020-10-24 12:25:44,667 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2020-10-24 12:25:45,744 [INFO] ApiDb:226 - Save user favorites file C:\Users\Le Petit Prince/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2020-10-24 12:25:45,745 [INFO] ApiDb:230 - User favorites MCUs=[]
+2020-10-24 12:26:03,903 [INFO] RtosManager:751 - Current active RTOS is FREERTOS [Cortex-M3NS]
+2020-10-24 12:26:04,013 [ERROR] FreeRTOS:500 - Case being investigated as it may cause exception (when called to early by set config state
+2020-10-24 12:26:04,068 [ERROR] FreeRTOS:500 - Case being investigated as it may cause exception (when called to early by set config state
+2020-10-24 12:26:04,074 [ERROR] FreeRTOS:500 - Case being investigated as it may cause exception (when called to early by set config state
+2020-10-24 12:26:04,390 [ERROR] RtosPanel:523 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2020-10-24 12:26:04,641 [ERROR] RtosPanel:523 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2020-10-24 12:26:04,759 [ERROR] RtosPanel:523 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2020-10-24 12:27:19,480 [INFO] TasksAndQueuesTab:731 - Dynamic
+2020-10-24 12:27:19,481 [WARN] TasksAndQueuesTab:737 - 128 128
+2020-10-24 12:27:19,481 [WARN] TasksAndQueuesTab:749 - max value is: 768.0
+2020-10-24 12:27:24,495 [INFO] EditThreadDialog:688 - RAM SIZE (in KB): 20
+2020-10-24 12:27:24,496 [INFO] EditThreadDialog:690 - RAM SIZE (in words): 5120
+2020-10-24 12:28:03,656 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 366517536 Bytes (792723456)
+2020-10-24 12:28:40,397 [INFO] Can:56 - Can Add PropertyChangeListener com.st.microxplorer.plugins.ip.can.Can@736875d4
+2020-10-24 12:40:25,560 [INFO] Gpio:250 - dependency for GPIO [CAN, SPI2]
+2020-10-24 12:40:55,703 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 537822232 Bytes (792723456)
+2020-10-24 12:40:59,194 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 546150752 Bytes (792723456)
+2020-10-24 12:41:05,746 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 338350088 Bytes (792723456)
+2020-10-24 12:41:06,343 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SPI
+2020-10-24 12:41:06,343 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: NVIC
+2020-10-24 12:41:06,344 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: FREERTOS
+2020-10-24 12:41:06,344 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SYS
+2020-10-24 12:41:06,344 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: GPIO
+2020-10-24 12:41:06,344 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: CAN
+2020-10-24 12:41:06,345 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: RCC
+2020-10-24 12:41:06,346 [INFO] CodeGenerator:622 - code generatio: config db path: B:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\
+2020-10-24 12:41:06,751 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\license.tmp_save
+2020-10-24 12:41:06,889 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\license.tmp
+2020-10-24 12:41:07,020 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\gpio.tmp_save
+2020-10-24 12:41:07,146 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\gpio.tmp
+2020-10-24 12:41:07,300 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-10-24 12:41:07,326 [INFO] Middleware:1168 - No code input for Bsp Dependency
+2020-10-24 12:41:07,371 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_inc.tmp_save
+2020-10-24 12:41:07,490 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_inc.tmp
+2020-10-24 12:41:07,524 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_kernelInit.tmp_save
+2020-10-24 12:41:07,773 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_kernelInit.tmp
+2020-10-24 12:41:07,822 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_kernelStart.tmp_save
+2020-10-24 12:41:07,919 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_kernelStart.tmp
+2020-10-24 12:41:07,956 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_typedefs.tmp_save
+2020-10-24 12:41:08,036 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_typedefs.tmp
+2020-10-24 12:41:08,091 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_vars.tmp_save
+2020-10-24 12:41:08,192 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_vars.tmp
+2020-10-24 12:41:08,237 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_pfp.tmp_save
+2020-10-24 12:41:08,330 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_pfp.tmp
+2020-10-24 12:41:08,368 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_obj_creat.tmp_save
+2020-10-24 12:41:08,444 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_obj_creat.tmp
+2020-10-24 12:41:08,476 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_default_thread.tmp_save
+2020-10-24 12:41:08,549 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_default_thread.tmp
+2020-10-24 12:41:08,587 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_threads.tmp_save
+2020-10-24 12:41:08,654 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_threads.tmp
+2020-10-24 12:41:08,691 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\FreeRTOSConfig.h_save
+2020-10-24 12:41:08,806 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\FreeRTOSConfig.h
+2020-10-24 12:41:08,853 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\freertos.c_save
+2020-10-24 12:41:08,944 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\freertos.c
+2020-10-24 12:41:08,946 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-10-24 12:41:08,948 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-10-24 12:41:08,987 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\stm32f1xx_it.c_save
+2020-10-24 12:41:09,129 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\stm32f1xx_it.c
+2020-10-24 12:41:09,157 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\stm32f1xx_it.h_save
+2020-10-24 12:41:09,258 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\stm32f1xx_it.h
+2020-10-24 12:41:09,298 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\stm32f1xx_hal_msp.c_save
+2020-10-24 12:41:09,477 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\stm32f1xx_hal_msp.c
+2020-10-24 12:41:09,505 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\system.tmp_save
+2020-10-24 12:41:09,594 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\system.tmp
+2020-10-24 12:41:09,630 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\stm32f1xx_hal_timebase_tim.c_save
+2020-10-24 12:41:09,861 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\stm32f1xx_hal_timebase_tim.c
+2020-10-24 12:41:09,918 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-10-24 12:41:10,068 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\stm32f1xx_hal_conf.h
+2020-10-24 12:41:10,098 [WARN] IPConfigManager:2884 - IP not found : gpio
+2020-10-24 12:41:10,099 [WARN] CodeGenerator:2866 - IP not found : gpio
+2020-10-24 12:41:10,146 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\main.h_save
+2020-10-24 12:41:10,250 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\main.h
+2020-10-24 12:41:10,287 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\main.c_save
+2020-10-24 12:41:10,496 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\main.c
+2020-10-24 12:41:11,313 [INFO] ProjectBuilder:2168 - Time for Copy HAL[1] : 186mS.
+2020-10-24 12:41:11,319 [INFO] ProjectBuilder:2988 - Project Generator version: 3.10.0-B14
+2020-10-24 12:41:12,268 [INFO] ConfigFileManager:1183 - The Die is : DIE410
+2020-10-24 12:41:16,823 [INFO] ProjectBuilder:3155 - Time for Generating toolchain IDE Files: 5504mS.
+2020-10-24 12:41:16,825 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 1mS.
+2020-10-24 12:41:16,841 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 1mS.
+2020-10-24 12:41:46,348 [INFO] Gpio:250 - dependency for GPIO [CAN, SPI2]
+2020-10-24 12:54:31,405 [INFO] Mcu:1431 - InternalPropertyChange: try BijectiveRequest:Device (FS)
+2020-10-24 12:54:35,212 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,450x259,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2020-10-24 12:57:48,417 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Exception in thread "AWT-EventQueue-0" java.lang.NullPointerException
+2020-10-24 12:57:48,419 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.gpio.model.IPTab.checkGPIOMode(IPTab.java:263)
+2020-10-24 12:57:48,422 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.gpio.model.IPTab.checkCommonPossibleValues(IPTab.java:246)
+2020-10-24 12:57:48,425 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.gpio.gui.GpioTablePanel.propertyChange(GpioTablePanel.java:455)
+2020-10-24 12:57:48,427 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:335)
+2020-10-24 12:57:48,429 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:327)
+2020-10-24 12:57:48,432 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.mxsystem.MxSystem.propertyChange(MxSystem.java:442)
+2020-10-24 12:57:48,434 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:335)
+2020-10-24 12:57:48,436 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:327)
+2020-10-24 12:57:48,440 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:263)
+2020-10-24 12:57:48,443 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.util.MXPropertyChangeSupport.firePropertyChange(MXPropertyChangeSupport.java:45)
+2020-10-24 12:57:48,445 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.mcu.Mcu.propertyChange(Mcu.java:1551)
+2020-10-24 12:57:48,447 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:335)
+2020-10-24 12:57:48,450 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:327)
+2020-10-24 12:57:48,452 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:263)
+2020-10-24 12:57:48,455 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.util.MXPropertyChangeSupport.firePropertyChange(MXPropertyChangeSupport.java:45)
+2020-10-24 12:57:48,457 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.mcu.Pin.setPinLabel(Pin.java:2013)
+2020-10-24 12:57:48,459 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.pinoutconfig.gui.PinOutPanel$InputLabel$2.focusLost(PinOutPanel.java:2072)
+2020-10-24 12:57:48,462 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.awt.AWTEventMulticaster.focusLost(AWTEventMulticaster.java:230)
+2020-10-24 12:57:48,464 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.awt.AWTEventMulticaster.focusLost(AWTEventMulticaster.java:229)
+2020-10-24 12:57:48,466 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.awt.Component.processFocusEvent(Component.java:6431)
+2020-10-24 12:57:48,467 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.awt.Component.processEvent(Component.java:6295)
+2020-10-24 12:57:48,469 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.awt.Container.processEvent(Container.java:2239)
+2020-10-24 12:57:48,471 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+2020-10-24 12:57:48,473 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+2020-10-24 12:57:48,475 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.awt.Component.dispatchEvent(Component.java:4711)
+2020-10-24 12:57:48,477 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1954)
+2020-10-24 12:57:48,480 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:1023)
+2020-10-24 12:57:48,483 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:689)
+2020-10-24 12:57:48,485 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.awt.Component.dispatchEventImpl(Component.java:4760)
+2020-10-24 12:57:48,487 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+2020-10-24 12:57:48,488 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.awt.Component.dispatchEvent(Component.java:4711)
+2020-10-24 12:57:48,490 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+2020-10-24 12:57:48,492 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.awt.EventQueue.access$500(EventQueue.java:97)
+2020-10-24 12:57:48,493 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.awt.EventQueue$3.run(EventQueue.java:709)
+2020-10-24 12:57:48,494 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.awt.EventQueue$3.run(EventQueue.java:703)
+2020-10-24 12:57:48,497 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.security.AccessController.doPrivileged(Native Method)
+2020-10-24 12:57:48,500 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+2020-10-24 12:57:48,504 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+2020-10-24 12:57:48,506 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.awt.EventQueue$4.run(EventQueue.java:733)
+2020-10-24 12:57:48,509 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.awt.EventQueue$4.run(EventQueue.java:731)
+2020-10-24 12:57:48,511 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.security.AccessController.doPrivileged(Native Method)
+2020-10-24 12:57:48,515 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+2020-10-24 12:57:48,517 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+2020-10-24 12:57:48,519 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+2020-10-24 12:57:48,521 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+2020-10-24 12:57:48,523 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+2020-10-24 12:57:48,525 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2020-10-24 12:57:48,527 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+2020-10-24 12:57:48,529 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2020-10-24 12:59:06,040 [ERROR] RtosPanel:523 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2020-10-24 12:59:32,716 [INFO] TasksAndQueuesTab:731 - Dynamic
+2020-10-24 12:59:32,717 [WARN] TasksAndQueuesTab:737 - 128 128
+2020-10-24 12:59:32,718 [WARN] TasksAndQueuesTab:749 - max value is: 768.0
+2020-10-24 13:00:03,211 [INFO] DmaTabbedPanel:192 - Cannot restore the selected Tab for DMA
+2020-10-24 13:01:51,423 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,450x259,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2020-10-24 13:02:49,203 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 591504712 Bytes (853540864)
+2020-10-24 13:02:51,653 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 601068616 Bytes (853540864)
+2020-10-24 13:02:54,323 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 668024376 Bytes (853540864)
+2020-10-24 13:03:05,953 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SPI
+2020-10-24 13:03:05,953 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: NVIC
+2020-10-24 13:03:05,953 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: FREERTOS
+2020-10-24 13:03:05,954 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SYS
+2020-10-24 13:03:05,954 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: GPIO
+2020-10-24 13:03:05,954 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: CAN
+2020-10-24 13:03:05,954 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: RCC
+2020-10-24 13:03:05,955 [INFO] CodeGenerator:622 - code generatio: config db path: B:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\
+2020-10-24 13:03:06,203 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\license.tmp_save
+2020-10-24 13:03:06,271 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\license.tmp
+2020-10-24 13:03:06,315 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\gpio.tmp_save
+2020-10-24 13:03:06,426 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\gpio.tmp
+2020-10-24 13:03:06,508 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-10-24 13:03:06,531 [INFO] Middleware:1168 - No code input for Bsp Dependency
+2020-10-24 13:03:06,578 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_inc.tmp_save
+2020-10-24 13:03:06,668 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_inc.tmp
+2020-10-24 13:03:06,699 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_kernelInit.tmp_save
+2020-10-24 13:03:06,777 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_kernelInit.tmp
+2020-10-24 13:03:06,808 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_kernelStart.tmp_save
+2020-10-24 13:03:06,882 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_kernelStart.tmp
+2020-10-24 13:03:06,913 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_typedefs.tmp_save
+2020-10-24 13:03:06,985 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_typedefs.tmp
+2020-10-24 13:03:07,014 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_vars.tmp_save
+2020-10-24 13:03:07,081 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_vars.tmp
+2020-10-24 13:03:07,107 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_pfp.tmp_save
+2020-10-24 13:03:07,182 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_pfp.tmp
+2020-10-24 13:03:07,223 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_obj_creat.tmp_save
+2020-10-24 13:03:07,311 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_obj_creat.tmp
+2020-10-24 13:03:07,358 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_default_thread.tmp_save
+2020-10-24 13:03:07,453 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_default_thread.tmp
+2020-10-24 13:03:07,482 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_threads.tmp_save
+2020-10-24 13:03:07,546 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_threads.tmp
+2020-10-24 13:03:07,598 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\FreeRTOSConfig.h_save
+2020-10-24 13:03:07,762 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\FreeRTOSConfig.h
+2020-10-24 13:03:07,800 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\freertos.c_save
+2020-10-24 13:03:07,918 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\freertos.c
+2020-10-24 13:03:07,921 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-10-24 13:03:07,923 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-10-24 13:03:07,959 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\stm32f1xx_it.c_save
+2020-10-24 13:03:08,075 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\stm32f1xx_it.c
+2020-10-24 13:03:08,105 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\stm32f1xx_it.h_save
+2020-10-24 13:03:08,244 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\stm32f1xx_it.h
+2020-10-24 13:03:08,284 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\stm32f1xx_hal_msp.c_save
+2020-10-24 13:03:08,481 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\stm32f1xx_hal_msp.c
+2020-10-24 13:03:08,522 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\system.tmp_save
+2020-10-24 13:03:08,617 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\system.tmp
+2020-10-24 13:03:08,668 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-10-24 13:03:09,167 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\stm32f1xx_hal_conf.h
+2020-10-24 13:03:09,192 [WARN] IPConfigManager:2884 - IP not found : gpio
+2020-10-24 13:03:09,193 [WARN] CodeGenerator:2866 - IP not found : gpio
+2020-10-24 13:03:09,229 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\main.h_save
+2020-10-24 13:03:09,346 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\main.h
+2020-10-24 13:03:09,385 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\main.c_save
+2020-10-24 13:03:09,572 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\main.c
+2020-10-24 13:03:10,683 [INFO] ProjectBuilder:2168 - Time for Copy HAL[1] : 367mS.
+2020-10-24 13:03:10,689 [INFO] ProjectBuilder:2988 - Project Generator version: 3.10.0-B14
+2020-10-24 13:03:11,038 [INFO] ConfigFileManager:1183 - The Die is : DIE410
+2020-10-24 13:03:14,541 [INFO] ProjectBuilder:3155 - Time for Generating toolchain IDE Files: 3852mS.
+2020-10-24 13:03:14,542 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 1mS.
+2020-10-24 13:03:14,547 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2020-10-24 13:03:21,605 [INFO] MainUpdater:2268 - connection check result : 10
+2020-10-24 13:03:21,606 [INFO] MainUpdater:2268 - connection check result : 10
+2020-10-24 13:03:21,685 [INFO] MicroXplorer:384 - Change Database Path : 
+2020-10-24 13:03:21,685 [INFO] MicroXplorer:414 - Change Database Version : DB.6.0.0
+2020-10-24 13:03:21,686 [WARN] ThirdParty:775 - waiting for thirdparty lock release [close project]
+2020-10-24 13:03:21,686 [INFO] ThirdParty:777 - entering critical section [close project]
+2020-10-24 13:03:21,686 [INFO] ThirdParty:790 - exiting critical section [close project]
+2020-10-24 13:03:21,689 [INFO] PinOutPanel:1418 - setPackage(No Configuration,No Configuration)
+2020-10-24 13:03:21,699 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 344781224 Bytes (924844032)
+2020-10-24 13:03:21,700 [INFO] MicroXplorer:384 - Change Database Path : 
+2020-10-24 13:03:21,700 [INFO] MicroXplorer:414 - Change Database Version : DB.6.0.0
+2020-10-24 13:03:21,701 [INFO] OpenFileManager:274 - Change cursor
+2020-10-24 13:03:21,832 [INFO] RulesReader:52 - Compatibility file has been processed (209 Rules)
+2020-10-24 13:03:23,278 [WARN] ApiManager:274 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.8.1.1: no header file found
+2020-10-24 13:03:23,279 [WARN] ApiManager:274 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.8.1.1: no header file found
+2020-10-24 13:03:23,279 [WARN] ApiManager:274 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.8.1.1: no header file found
+2020-10-24 13:03:23,280 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1602700034234]
+2020-10-24 13:03:23,280 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : GFX01M1_Condition id : 1602700034219
+2020-10-24 13:03:23,280 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1602700034234]
+2020-10-24 13:03:23,280 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : GFX01M1_HelloWorld_Condition id : 1602700034221
+2020-10-24 13:03:23,306 [WARN] ApiManager:274 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.8.1.0: no header file found
+2020-10-24 13:03:23,307 [WARN] ApiManager:274 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.8.1.0: no header file found
+2020-10-24 13:03:23,307 [WARN] ApiManager:274 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.8.1.0: no header file found
+2020-10-24 13:03:23,308 [INFO] RtosManager:456 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2020-10-24 13:03:23,308 [INFO] RtosManager:456 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2020-10-24 13:03:23,309 [INFO] RtosManager:456 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2020-10-24 13:03:23,309 [INFO] RtosManager:456 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2020-10-24 13:03:23,309 [WARN] ModelIntegratedComponent:188 - Missing modes for component 1598958239305
+2020-10-24 13:03:23,310 [WARN] ApiManager:274 - Cannot register API 'Wireless:BlueNRG-2' from pack STMicroelectronics.X-CUBE-BLE2.3.0.0: no header file found
+2020-10-24 13:03:23,475 [INFO] RtosManager:751 - Current active RTOS is FREERTOS [Cortex-M3NS]
+2020-10-24 13:03:23,481 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (FamilyName)
+2020-10-24 13:03:23,658 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 693432736 Bytes (924844032)
+2020-10-24 13:03:23,659 [WARN] ThirdParty:741 - waiting for thirdparty lock release [change project]
+2020-10-24 13:03:23,659 [INFO] ThirdParty:743 - entering critical section [change project]
+2020-10-24 13:03:23,659 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 8.1.1
+2020-10-24 13:03:23,659 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2020-10-24 13:03:23,660 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 1.0.0
+2020-10-24 13:03:23,660 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 8.1.0
+2020-10-24 13:03:23,660 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2020-10-24 13:03:23,660 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2020-10-24 13:03:23,660 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2020-10-24 13:03:23,660 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2020-10-24 13:03:23,660 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2020-10-24 13:03:23,660 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2020-10-24 13:03:23,660 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2020-10-24 13:03:23,660 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2020-10-24 13:03:23,660 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.15.0
+2020-10-24 13:03:23,661 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 5.2.0
+2020-10-24 13:03:23,661 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2020-10-24 13:03:23,661 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.0.0
+2020-10-24 13:03:23,661 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2020-10-24 13:03:23,661 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2020-10-24 13:03:23,661 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2020-10-24 13:03:23,661 [INFO] ThirdParty:749 - exiting critical section [change project]
+2020-10-24 13:03:23,796 [INFO] PinOutPanel:1418 - setPackage(No Configuration,No Configuration)
+2020-10-24 13:03:23,797 [INFO] PinOutPanel:1418 - setPackage(STM32F103RBTx,LQFP64)
+2020-10-24 13:03:24,212 [INFO] UtilMem:74 - Before build in PCC Used Memory: 309951760 Bytes (924844032)
+2020-10-24 13:03:24,542 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Le Petit Prince/.stm32cubemx/plugins/power
+2020-10-24 13:03:24,607 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Le Petit Prince/.stm32cubemx/plugins/power
+2020-10-24 13:03:24,638 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Le Petit Prince/.stm32cubemx/plugins/power
+2020-10-24 13:03:24,642 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Le Petit Prince/.stm32cubemx/plugins/power
+2020-10-24 13:03:24,704 [INFO] UtilMem:74 - After build in PCC Used Memory: 351894800 Bytes (924844032)
+2020-10-24 13:03:24,722 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 13:03:24,722 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 13:03:24,722 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 13:03:24,722 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 13:03:24,723 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 13:03:24,723 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 13:03:24,724 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 13:03:24,724 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 13:03:24,724 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 13:03:24,724 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 13:03:24,725 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 13:03:24,726 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 13:03:24,726 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 13:03:24,726 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 13:03:24,727 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 13:03:24,727 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 13:03:24,727 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 13:03:24,728 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 13:03:24,728 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 13:03:24,728 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 13:03:24,729 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 13:03:24,729 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 13:03:24,729 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 13:03:24,729 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 13:03:24,730 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 13:03:24,732 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 13:03:24,732 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-24 13:03:24,735 [INFO] Can:56 - Can Add PropertyChangeListener com.st.microxplorer.plugins.ip.can.Can@683d8567
+2020-10-24 13:03:24,750 [ERROR] FreeRTOS:936 - Null or empty value: should not occur! (nothing added to the table)
+2020-10-24 13:03:24,759 [INFO] ApiDbMcu:456 - Load IP Config File for FREERTOS
+2020-10-24 13:03:24,973 [INFO] RtosManager:573 - Active RTOS found at IOC load: FREERTOS [Cortex-M3NS]
+2020-10-24 13:03:24,976 [INFO] OpenFileManager:294 - Restore cursor
+2020-10-24 13:03:33,901 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 625801392 Bytes (924844032)
+2020-10-24 13:03:36,131 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 634714280 Bytes (924844032)
+2020-10-24 13:03:37,855 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 657782952 Bytes (924844032)
+2020-10-24 13:03:38,255 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SPI
+2020-10-24 13:03:38,255 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: NVIC
+2020-10-24 13:03:38,255 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: FREERTOS
+2020-10-24 13:03:38,256 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SYS
+2020-10-24 13:03:38,256 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: GPIO
+2020-10-24 13:03:38,256 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: CAN
+2020-10-24 13:03:38,256 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: RCC
+2020-10-24 13:03:38,257 [INFO] CodeGenerator:622 - code generatio: config db path: B:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\
+2020-10-24 13:03:38,708 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\license.tmp_save
+2020-10-24 13:03:38,772 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\license.tmp
+2020-10-24 13:03:38,844 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\gpio.tmp_save
+2020-10-24 13:03:38,953 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\gpio.tmp
+2020-10-24 13:03:39,048 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-10-24 13:03:39,059 [INFO] Middleware:1168 - No code input for Bsp Dependency
+2020-10-24 13:03:39,091 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_inc.tmp_save
+2020-10-24 13:03:39,150 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_inc.tmp
+2020-10-24 13:03:39,172 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_kernelInit.tmp_save
+2020-10-24 13:03:39,230 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_kernelInit.tmp
+2020-10-24 13:03:39,253 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_kernelStart.tmp_save
+2020-10-24 13:03:39,322 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_kernelStart.tmp
+2020-10-24 13:03:39,345 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_typedefs.tmp_save
+2020-10-24 13:03:39,416 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_typedefs.tmp
+2020-10-24 13:03:39,444 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_vars.tmp_save
+2020-10-24 13:03:39,509 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_vars.tmp
+2020-10-24 13:03:39,534 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_pfp.tmp_save
+2020-10-24 13:03:39,593 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_pfp.tmp
+2020-10-24 13:03:39,619 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_obj_creat.tmp_save
+2020-10-24 13:03:39,701 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_obj_creat.tmp
+2020-10-24 13:03:39,723 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_default_thread.tmp_save
+2020-10-24 13:03:39,797 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_default_thread.tmp
+2020-10-24 13:03:39,823 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_threads.tmp_save
+2020-10-24 13:03:39,880 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_threads.tmp
+2020-10-24 13:03:39,916 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\FreeRTOSConfig.h_save
+2020-10-24 13:03:40,029 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\FreeRTOSConfig.h
+2020-10-24 13:03:40,070 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\freertos.c_save
+2020-10-24 13:03:40,150 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\freertos.c
+2020-10-24 13:03:40,152 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-10-24 13:03:40,154 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-10-24 13:03:40,189 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\stm32f1xx_it.c_save
+2020-10-24 13:03:40,278 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\stm32f1xx_it.c
+2020-10-24 13:03:40,304 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\stm32f1xx_it.h_save
+2020-10-24 13:03:40,385 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\stm32f1xx_it.h
+2020-10-24 13:03:40,423 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\stm32f1xx_hal_msp.c_save
+2020-10-24 13:03:40,541 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\stm32f1xx_hal_msp.c
+2020-10-24 13:03:40,567 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\system.tmp_save
+2020-10-24 13:03:40,639 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\system.tmp
+2020-10-24 13:03:40,674 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\stm32f1xx_hal_timebase_tim.c_save
+2020-10-24 13:03:40,771 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\stm32f1xx_hal_timebase_tim.c
+2020-10-24 13:03:40,820 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-10-24 13:03:40,939 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\stm32f1xx_hal_conf.h
+2020-10-24 13:03:40,961 [WARN] IPConfigManager:2884 - IP not found : gpio
+2020-10-24 13:03:40,961 [WARN] CodeGenerator:2866 - IP not found : gpio
+2020-10-24 13:03:40,994 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\main.h_save
+2020-10-24 13:03:41,095 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\main.h
+2020-10-24 13:03:41,130 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\main.c_save
+2020-10-24 13:03:41,293 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\main.c
+2020-10-24 13:03:42,318 [INFO] ProjectBuilder:2168 - Time for Copy HAL[1] : 216mS.
+2020-10-24 13:03:42,323 [INFO] ProjectBuilder:2988 - Project Generator version: 3.10.0-B14
+2020-10-24 13:03:42,640 [INFO] ConfigFileManager:1183 - The Die is : DIE410
+2020-10-24 13:03:42,645 [INFO] ApiDbMcu:456 - Load IP Config File for FATFS
+2020-10-24 13:03:42,652 [INFO] ApiDbMcu:456 - Load IP Config File for USB_DEVICE
+2020-10-24 13:03:45,595 [INFO] ProjectBuilder:3155 - Time for Generating toolchain IDE Files: 3272mS.
+2020-10-24 13:03:45,596 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 1mS.
+2020-10-24 13:03:45,602 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2020-10-24 20:01:06,827 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 482391064 Bytes (1022361600)
+2020-10-24 20:01:08,915 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 491306000 Bytes (1022361600)
+2020-10-24 20:01:11,255 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 514380832 Bytes (1022361600)
+2020-10-24 20:01:12,126 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SPI
+2020-10-24 20:01:12,127 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: NVIC
+2020-10-24 20:01:12,127 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: FREERTOS
+2020-10-24 20:01:12,128 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SYS
+2020-10-24 20:01:12,128 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: GPIO
+2020-10-24 20:01:12,128 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: CAN
+2020-10-24 20:01:12,128 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: RCC
+2020-10-24 20:01:12,130 [INFO] CodeGenerator:622 - code generatio: config db path: B:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\
+2020-10-24 20:01:12,613 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\license.tmp_save
+2020-10-24 20:01:12,722 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\license.tmp
+2020-10-24 20:01:12,799 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\gpio.c_save
+2020-10-24 20:01:12,923 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\gpio.c
+2020-10-24 20:01:12,965 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\gpio.h_save
+2020-10-24 20:01:13,201 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\gpio.h
+2020-10-24 20:01:13,269 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-10-24 20:01:13,295 [INFO] Middleware:1168 - No code input for Bsp Dependency
+2020-10-24 20:01:13,329 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_inc.tmp_save
+2020-10-24 20:01:13,418 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_inc.tmp
+2020-10-24 20:01:13,466 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_kernelInit.tmp_save
+2020-10-24 20:01:13,553 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_kernelInit.tmp
+2020-10-24 20:01:13,583 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_kernelStart.tmp_save
+2020-10-24 20:01:13,665 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_kernelStart.tmp
+2020-10-24 20:01:13,697 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_typedefs.tmp_save
+2020-10-24 20:01:13,765 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_typedefs.tmp
+2020-10-24 20:01:13,797 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_vars.tmp_save
+2020-10-24 20:01:13,950 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_vars.tmp
+2020-10-24 20:01:13,982 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_pfp.tmp_save
+2020-10-24 20:01:14,062 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_pfp.tmp
+2020-10-24 20:01:14,091 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_obj_creat.tmp_save
+2020-10-24 20:01:14,171 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_obj_creat.tmp
+2020-10-24 20:01:14,208 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_default_thread.tmp_save
+2020-10-24 20:01:14,289 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_default_thread.tmp
+2020-10-24 20:01:14,322 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_threads.tmp_save
+2020-10-24 20:01:14,472 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\rtos_threads.tmp
+2020-10-24 20:01:14,535 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\FreeRTOSConfig.h_save
+2020-10-24 20:01:14,696 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\FreeRTOSConfig.h
+2020-10-24 20:01:14,739 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\freertos.c_save
+2020-10-24 20:01:14,904 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\freertos.c
+2020-10-24 20:01:14,907 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-10-24 20:01:14,953 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\can.c_save
+2020-10-24 20:01:15,125 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\can.c
+2020-10-24 20:01:15,162 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\can.h_save
+2020-10-24 20:01:15,249 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\can.h
+2020-10-24 20:01:15,251 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-10-24 20:01:15,283 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\spi.c_save
+2020-10-24 20:01:15,423 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\spi.c
+2020-10-24 20:01:15,447 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\spi.h_save
+2020-10-24 20:01:15,547 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\spi.h
+2020-10-24 20:01:15,586 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\stm32f1xx_it.c_save
+2020-10-24 20:01:15,741 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\stm32f1xx_it.c
+2020-10-24 20:01:15,779 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\stm32f1xx_it.h_save
+2020-10-24 20:01:15,917 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\stm32f1xx_it.h
+2020-10-24 20:01:15,968 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\stm32f1xx_hal_msp.c_save
+2020-10-24 20:01:16,219 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\stm32f1xx_hal_msp.c
+2020-10-24 20:01:16,248 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\system.tmp_save
+2020-10-24 20:01:16,324 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\MXTmpFiles\system.tmp
+2020-10-24 20:01:16,359 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\stm32f1xx_hal_timebase_tim.c_save
+2020-10-24 20:01:16,483 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\stm32f1xx_hal_timebase_tim.c
+2020-10-24 20:01:16,531 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-10-24 20:01:16,696 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\stm32f1xx_hal_conf.h
+2020-10-24 20:01:16,760 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\main.h_save
+2020-10-24 20:01:16,915 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Inc\main.h
+2020-10-24 20:01:16,955 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\main.c_save
+2020-10-24 20:01:17,153 [INFO] CodeEngine:206 - Generated code: E:\Seafile\TIM\Projet TIM\GitHub\volant\SW\volant\Core\Src\main.c
+2020-10-24 20:01:18,185 [INFO] ProjectBuilder:2168 - Time for Copy HAL[1] : 300mS.
+2020-10-24 20:01:18,195 [INFO] ProjectBuilder:2988 - Project Generator version: 3.10.0-B14
+2020-10-24 20:01:19,267 [INFO] ConfigFileManager:1183 - The Die is : DIE410
+2020-10-24 20:01:22,693 [INFO] ProjectBuilder:3155 - Time for Generating toolchain IDE Files: 4498mS.
+2020-10-24 20:01:22,701 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 1mS.
+2020-10-24 20:01:22,732 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
