@@ -4,7 +4,7 @@ Mettre à jour la carte volant du TIM
 # Fonctions à accomplir
 
 - Programable de l'exterieur
-- Affichace à l'ecran de : 
+- Affichage à l'écran de : 
 	- La vitesse 
 	- (Temoins freinage)
 	- (Temoins feu avant /arrire)
